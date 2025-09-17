@@ -1,3 +1,5 @@
 staticSites:
   - name: shalak-ug
+    buildCommand: ""
+    staticPublishPath: .
     cleanUrls: true
