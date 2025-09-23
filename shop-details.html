@@ -68,45 +68,54 @@
                                 <nav class="main-menu">
                                     <ul>
                                         <li class="menu-item has-children"><a href="index.html">Home</a>
-                                            <ul class="sub-menu">
+                                                                                        <!-- <ul class="sub-menu">
                                                 <li><a href="index.html">Home 01</a></li>
                                                 <li><a href="index-2.html">Home 02</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li class="menu-item has-children"><a href="#">Service</a>
-                                            <ul class="sub-menu">
+                                        <li class="menu-item has-children"><a href="about.html">About Us</a>
+                                            <!-- <ul class="sub-menu">
                                                 <li><a href="services.html">Services</a></li>
                                                 <li><a href="service-details.html">Service Details</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li class="menu-item has-children"><a href="#">Projects</a>
-                                            <ul class="sub-menu">
+                                        <li class="menu-item has-children"><a href="services.html">Service</a>
+                                            <!-- <ul class="sub-menu">
+                                                <li><a href="services.html">Services</a></li>
+                                                <li><a href="service-details.html">Service Details</a></li>
+                                            </ul> -->
+                                        </li>
+                                        <li class="menu-item has-children"><a href="project-grid.html">Projects</a>
+                                            <!-- <ul class="sub-menu">
                                                 <li><a href="project-grid.html">Project Grid</a></li>
                                                 <li><a href="project-full-width.html">Project Full Width</a></li>
                                                 <li><a href="project-details.html">Project Details</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li class="menu-item has-children"><a href="#">Pages</a>
+                                        <!-- <li class="menu-item has-children"><a href="#">Pages</a>
                                             <ul class="sub-menu">
                                                 <li><a href="about.html">About Us</a></li>
                                                 <li><a href="contact.html">Contact Us</a></li>
                                                 <li><a href="404.html">404</a></li>
                                             </ul>
-                                        </li>
-                                        <li class="menu-item has-children"><a href="#">Shop</a>
-                                            <ul class="sub-menu">
+                                        </li> -->
+                                        <li class="menu-item has-children"><a href="shop.html">Shop</a>
+                                            <!-- <ul class="sub-menu">
                                                 <li><a href="shop.html">Shop</a></li>
                                                 <li><a href="shop-details.html">Shop Details</a></li>
                                                 <li><a href="cart.html">Cart</a></li>
                                                 <li><a href="checkout.html">Checkout</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li class="menu-item has-children"><a href="#">Blogs</a>
-                                            <ul class="sub-menu">
+<li class="menu-item has-children"><a href="blog-standard.html">Blogs</a>
+                                            <!-- <ul class="sub-menu">
                                                 <li><a href="blog-grid.html">Blog Grid</a></li>
                                                 <li><a href="blog-standard.html">Blog Standard</a></li>
                                                 <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
+                                            </ul> -->
+                                        </li>
+
+                                        <li class="menu-item has-children"><a href="contact.html">Contact Us</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -128,8 +137,8 @@
                             <!--=== Header Nav Right ===-->
                             <div class="nav-right-item">
                                 <div class="nav-action">
-                                    <div class="search-btn action-btn"><i class="far fa-search"></i></div>
-                                    <div class="shopping-btn action-btn"><i class="far fa-shopping-bag"></i></div>
+                                    <div class="search-btn action-btn" data-bs-toggle="modal" data-bs-target="#search-modal"><i class="far fa-search"></i></div>
+                                    <a href="cart.html" target="_blank" class="shopping-btn action-btn"><i class="far fa-shopping-bag"></i></a>
                                 </div>
                                 <div class="nav-button d-none d-md-block">
                                     <a href="contact.html" class="theme-btn style-one">Get A Quote</a>
@@ -166,7 +175,6 @@
             <!--====== Start Shop Details Page ======-->
             <section class="shop-details-page pt-130 pb-95">
                 <div class="container">
-                    <!-- Shop Details Wrapper -->
                     <div class="shop-details-wrapper mb-30">
                         <div class="row align-items-center ">
                             <div class="col-xl-6">
@@ -203,10 +211,10 @@
                             </div>
                             <div class="col-xl-6">
                                 <div class="product-info mb-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="10">
-                                    <span class="sm-title">Organic Food <span class="review"><i class="fas fa-star"></i>(9 Review)</span></span>
-                                    <h4 class="title">Fresh Green Lemon</h4>
-                                    <p class="price"><span class="prev-price">UGX 20.00</span>UGX 10.99</p>
-                                    <p>Involves the creation and upkeep of outdoor spaces, to  the blending natural and man-made elements. It includes tasks like planting.</p>
+                                    <span class="sm-title">Seeds & Grains <span class="review"><i class="fas fa-star"></i>(9 Review)</span></span>
+                                    <h4 class="title">High-Yield Maize Seeds</h4>
+                                    <p class="price"><span class="prev-price">UGX 25,000</span>UGX 22,500</p>
+                                    <p>Our high-yield maize seeds are carefully selected for Northern Uganda's climate, ensuring strong growth, disease resistance, and a bountiful harvest. These seeds are a cornerstone of food security, designed to maximize your yield with less effort.</p>
                                     <div class="product-cart-variation">
                                         <ul>
                                             <li>
@@ -223,13 +231,13 @@
                                     </div>
                                     <div class="product-meta mb-25">
                                         <ul>
-                                            <li class="category"><span>Category :</span><a href="#">T-Shirt</a>, <a href="#">Shoe</a>, <a href="#">Watch</a></li>
-                                            <li class="tag"><span>Tags :</span><a href="#">Shop</a>, <a href="#">Men</a>, <a href="#">Women</a></li>
+                                            <li class="category"><span>Category :</span><a href="#">Seeds</a>, <a href="#">Crops</a>, <a href="#">Grains</a></li>
+                                            <li class="tag"><span>Tags :</span><a href="#">Maize</a>, <a href="#">Seeds</a>, <a href="#">Farming</a></li>
                                         </ul>
                                     </div>
                                     <div class="product-delivery">
                                         <span class="delivery"><i class="flaticon-package"></i>2-day Delivery</span>
-                                        <span>- Speedy and reliable parcel delivery!</span>
+                                        <span>- Reliable delivery service to local depots in Northern Uganda.</span>
                                     </div>
                                 </div>
                             </div>
@@ -253,33 +261,33 @@
                                 </div>
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="description">
-                                        <p>A fresh green lemon is a captivating sight with its bright, glossy skin, a symbol of its tangy freshness. The fruit feels firm, indicating its juiciness, and as you slice into it, the air fills with a sharp, citrusy fragrance that invigorates the senses. The pale green flesh inside is packed with zesty juice, offering a tart, refreshing flavor that’s perfect for cooking, baking, or adding a lively twist to beverages. It's a versatile ingredient that elevates any dish with its vibrant taste.</p>
-                                        <p>As you slice into it, the air fills with a sharp, invigorating citrus scent. The juicy, pale green flesh offers a tart, vibrant flavor that adds a crisp, refreshing edge to drinks, salads, or marinades, making it a versatile and essential ingredient in the kitchen.</p>
+                                        <p>Our high-yield maize seeds are a game-changer for local farmers. Developed to thrive in the specific soil and climate conditions of Northern Uganda, these seeds offer superior germination rates and robust plant growth. They are genetically fortified to resist common diseases and pests, minimizing crop loss and maximizing your harvest. Each seed is a promise of a more secure future, helping you achieve food security for your family and community. Our seeds not only produce high yields but also contribute to a more sustainable and resilient farming system.</p>
+                                        <p>With proper care, our seeds can lead to a 20-30% increase in yield compared to traditional varieties. They are non-GMO and come with detailed planting instructions tailored for smallholder farmers. We ensure every batch is tested for quality and purity, so you can plant with confidence, knowing you're giving your crops the best possible start.</p>
                                         <ul class="check-list style-one">
-                                            <li><i class="flaticon-check"></i>Quique postures confidently while Hendrie subtly traces the hidden path.</li>
-                                            <li><i class="flaticon-check"></i>Clamorer echoes through the era as Morbi tempers each step.</li>
-                                            <li><i class="flaticon-check"></i>Condiment enhances the dish, while pharetra directs the path smoothly.</li>
-                                            <li><i class="flaticon-check"></i>Preussen critiques sharply as the bandit moves with vivacious energy.</li>
+                                            <li><i class="flaticon-check"></i>Proven high-yield performance in Northern Ugandan soil.</li>
+                                            <li><i class="flaticon-check"></i>Enhanced resistance to common diseases and pests.</li>
+                                            <li><i class="flaticon-check"></i>Non-GMO and sustainably sourced.</li>
+                                            <li><i class="flaticon-check"></i>Includes expert guidance for planting and care.</li>
                                         </ul>
                                     </div>
                                     <div class="tab-pane fade" id="additional">
-                                        <p>A fresh green lemon is a captivating sight with its bright, glossy skin, a symbol of its tangy freshness. The fruit feels firm, indicating its juiciness, and as you slice into it, the air fills with a sharp, citrusy fragrance that invigorates the senses. The pale green flesh inside is packed with zesty juice, offering a tart, refreshing flavor that’s perfect for cooking, baking, or adding a lively twist to beverages. It's a versatile ingredient that elevates any dish with its vibrant taste.</p>
-                                        <p>As you slice into it, the air fills with a sharp, invigorating citrus scent. The juicy, pale green flesh offers a tart, vibrant flavor that adds a crisp, refreshing edge to drinks, salads, or marinades, making it a versatile and essential ingredient in the kitchen.</p>
+                                        <p>This product is a cornerstone of our commitment to sustainable agriculture in Uganda. The seeds are packed in climate-controlled bags to ensure freshness and viability upon delivery. We recommend pairing these seeds with our organic fertilizer and pest control solutions for best results. Training on best practices for planting and crop management is also available through our extension services.</p>
+                                        <p>Each bag contains approximately 5 kilograms of seeds, sufficient for one acre of land. For larger orders, please contact our sales team for bulk pricing. We also provide on-site consultations to help you choose the right inputs for your specific farm needs.</p>
                                         <ul class="check-list style-one">
-                                            <li><i class="flaticon-check"></i>Quique postures confidently while Hendrie subtly traces the hidden path.</li>
-                                            <li><i class="flaticon-check"></i>Clamorer echoes through the era as Morbi tempers each step.</li>
-                                            <li><i class="flaticon-check"></i>Condiment enhances the dish, while pharetra directs the path smoothly.</li>
-                                            <li><i class="flaticon-check"></i>Preussen critiques sharply as the bandit moves with vivacious energy.</li>
+                                            <li><i class="flaticon-check"></i>Seeds per bag: 5kg</li>
+                                            <li><i class="flaticon-check"></i>Recommended for: Maize farming in Uganda</li>
+                                            <li><i class="flaticon-check"></i>Storage: Cool, dry place away from direct sunlight</li>
+                                            <li><i class="flaticon-check"></i>Best use by: See packaging for date</li>
                                         </ul>
                                     </div>
                                     <div class="tab-pane fade" id="reviews">
-                                        <p>A fresh green lemon is a captivating sight with its bright, glossy skin, a symbol of its tangy freshness. The fruit feels firm, indicating its juiciness, and as you slice into it, the air fills with a sharp, citrusy fragrance that invigorates the senses. The pale green flesh inside is packed with zesty juice, offering a tart, refreshing flavor that’s perfect for cooking, baking, or adding a lively twist to beverages. It's a versatile ingredient that elevates any dish with its vibrant taste.</p>
-                                        <p>As you slice into it, the air fills with a sharp, invigorating citrus scent. The juicy, pale green flesh offers a tart, vibrant flavor that adds a crisp, refreshing edge to drinks, salads, or marinades, making it a versatile and essential ingredient in the kitchen.</p>
+                                        <p>Our customers consistently report excellent results with these seeds. Many have seen a significant increase in their harvest, leading to greater income and food security for their families. One farmer from Lira noted, "These seeds made a huge difference. My maize stalks are stronger, and the cobs are bigger than ever before." We encourage all our clients to share their feedback, helping us continue to provide the highest quality products and support to the farming community.</p>
+                                        <p>The success stories are a testament to the quality and reliability of our agricultural inputs. Join the growing number of farmers who are building a more prosperous future with our products. Your success is our mission.</p>
                                         <ul class="check-list style-one">
-                                            <li><i class="flaticon-check"></i>Quique postures confidently while Hendrie subtly traces the hidden path.</li>
-                                            <li><i class="flaticon-check"></i>Clamorer echoes through the era as Morbi tempers each step.</li>
-                                            <li><i class="flaticon-check"></i>Condiment enhances the dish, while pharetra directs the path smoothly.</li>
-                                            <li><i class="flaticon-check"></i>Preussen critiques sharply as the bandit moves with vivacious energy.</li>
+                                            <li><i class="flaticon-check"></i>"My yield doubled!" - Okello, Lira</li>
+                                            <li><i class="flaticon-check"></i>"Stronger plants, fewer pests." - Achen, Kitgum</li>
+                                            <li><i class="flaticon-check"></i>"The team at Shalak Uganda is always helpful." - Otim, Gulu</li>
+                                            <li><i class="flaticon-check"></i>"Finally, a product that works for us!" - Adong, Pader</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -294,87 +302,82 @@
                         <div class="col-lg-12">
                             <div class="section-title text-center mb-55" data-aos="fade-up" data-aos-duration="1000">
                                 <span class="sub-title"><i class="flaticon-leaves"></i>Product</span>
-                                <h2>Related Product</h2>
+                                <h2>Related Products</h2>
                             </div>
                         </div>
                     </div>
                     <div class="related-product-slider">
-                        <!--=== Agricko Product Item ===-->
                         <div class="agricko-product-item mb-30" data-aos="fade-up" data-aos-duration="1400">
                             <div class="product-thumbnail">
                                 <img src="assets/images/home-two/products/product-img2.jpg" alt="Product Image">
                                 <div class="new">New</div>
                                 <div class="action-button">
-                                    <a href="#" class="icon-btn"><i class="far fa-shopping-basket"></i></a>
+                                    <a href="cart.html" class="icon-btn"><i class="far fa-shopping-basket"></i></a>
                                     <a href="#" class="icon-btn"><i class="far fa-heart"></i></a>
-                                    <a href="#" class="icon-btn"><i class="far fa-eye"></i></a>
+                                    <a href="shop-details.html" class="icon-btn"><i class="far fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="product-info">
-                                <h4><a href="shop-details.html">Green Broccoli</a></h4>
-                                <p class="price"><span class="prev-price">UGX 28.00</span>UGX 17.99</p>
+                                <h4><a href="shop-details.html">NPK Organic Fertilizer</a></h4>
+                                <p class="price"><span class="prev-price">UGX 55,000</span>UGX 45,000</p>
                             </div>
                         </div>
-                        <!--=== Agricko Product Item ===-->
                         <div class="agricko-product-item mb-30" data-aos="fade-up" data-aos-duration="1600">
                             <div class="product-thumbnail">
                                 <img src="assets/images/home-two/products/product-img3.jpg" alt="Product Image">
                                 <div class="action-button">
-                                    <a href="#" class="icon-btn"><i class="far fa-shopping-basket"></i></a>
+                                    <a href="cart.html" class="icon-btn"><i class="far fa-shopping-basket"></i></a>
                                     <a href="#" class="icon-btn"><i class="far fa-heart"></i></a>
-                                    <a href="#" class="icon-btn"><i class="far fa-eye"></i></a>
+                                    <a href="shop-details.html" class="icon-btn"><i class="far fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="product-info">
-                                <h4><a href="shop-details.html">Sou Red Cherry</a></h4>
-                                <p class="price"><span class="prev-price">UGX 30.00</span>UGX 12.00</p>
+                                <h4><a href="shop-details.html">Drought-Resistant Bean Seeds</a></h4>
+                                <p class="price"><span class="prev-price">UGX 20,000</span>UGX 15,000</p>
                             </div>
                         </div>
-                        <!--=== Agricko Product Item ===-->
                         <div class="agricko-product-item mb-30" data-aos="fade-up" data-aos-duration="1800">
                             <div class="product-thumbnail">
                                 <img src="assets/images/home-two/products/product-img4.jpg" alt="Product Image">
                                 <div class="new">New</div>
                                 <div class="action-button">
-                                    <a href="#" class="icon-btn"><i class="far fa-shopping-basket"></i></a>
+                                    <a href="cart.html" class="icon-btn"><i class="far fa-shopping-basket"></i></a>
                                     <a href="#" class="icon-btn"><i class="far fa-heart"></i></a>
-                                    <a href="#" class="icon-btn"><i class="far fa-eye"></i></a>
+                                    <a href="shop-details.html" class="icon-btn"><i class="far fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="product-info">
-                                <h4><a href="shop-details.html">Fresh Orange</a></h4>
-                                <p class="price"><span class="prev-price">UGX 35.00</span>UGX 20.99</p>
+                                <h4><a href="shop-details.html">Pest Control Solution</a></h4>
+                                <p class="price"><span class="prev-price">UGX 28,000</span>UGX 22,000</p>
                             </div>
                         </div>
-                        <!--=== Agricko Product Item ===-->
                         <div class="agricko-product-item mb-30" data-aos="fade-up" data-aos-duration="2000">
                             <div class="product-thumbnail">
                                 <img src="assets/images/home-two/products/product-img5.jpg" alt="Product Image">
                                 <div class="action-button">
-                                    <a href="#" class="icon-btn"><i class="far fa-shopping-basket"></i></a>
+                                    <a href="cart.html" class="icon-btn"><i class="far fa-shopping-basket"></i></a>
                                     <a href="#" class="icon-btn"><i class="far fa-heart"></i></a>
-                                    <a href="#" class="icon-btn"><i class="far fa-eye"></i></a>
+                                    <a href="shop-details.html" class="icon-btn"><i class="far fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="product-info">
-                                <h4><a href="shop-details.html">Green Apple</a></h4>
-                                <p class="price"><span class="prev-price">UGX 40.00</span>UGX 14.00</p>
+                                <h4><a href="shop-details.html">High-Quality Shovel</a></h4>
+                                <p class="price"><span class="prev-price">UGX 18,000</span>UGX 12,000</p>
                             </div>
                         </div>
-                        <!--=== Agricko Product Item ===-->
                         <div class="agricko-product-item mb-30" data-aos="fade-up" data-aos-duration="2200">
                             <div class="product-thumbnail">
                                 <img src="assets/images/home-two/products/product-img6.jpg" alt="Product Image">
                                 <div class="new">New</div>
                                 <div class="action-button">
-                                    <a href="#" class="icon-btn"><i class="far fa-shopping-basket"></i></a>
+                                    <a href="cart.html" class="icon-btn"><i class="far fa-shopping-basket"></i></a>
                                     <a href="#" class="icon-btn"><i class="far fa-heart"></i></a>
-                                    <a href="#" class="icon-btn"><i class="far fa-eye"></i></a>
+                                    <a href="shop-details.html" class="icon-btn"><i class="far fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="product-info">
-                                <h4><a href="shop-details.html">Green Apple</a></h4>
-                                <p class="price"><span class="prev-price">UGX 32.00</span>UGX 12.99</p>
+                                <h4><a href="shop-details.html">Protective Farm Gloves</a></h4>
+                                <p class="price"><span class="prev-price">UGX 15,000</span>UGX 10,000</p>
                             </div>
                         </div>
                     </div>
@@ -384,18 +387,15 @@
         <!--====== Start Footer ======-->
         <footer class="default-footer footer-one bg_cover" style="background-image: url(assets/images/home-one/bg/footer-bg.jpg);">
             <div class="container">
-                <!--=== Footer Newsletter ===-->
                 <div class="footer-newsletter">
                     <div class="newsletter-inner-wrap">
                         <div class="row align-items-center">
                             <div class="col-lg-7">
-                                <!--=== Section Title ===-->
                                 <div class="section-title">
-                                    <h3>Join Our Community for Agricultural Updates Newsletter</h3>
+                                    <h3>Join Our Community for Agricultural Updates</h3>
                                 </div>
                             </div>
                             <div class="col-lg-5">
-                                <!--=== Newsletter Form ===-->
                                 <div class="newsletter-form">
                                     <form autocomplete="off">
                                         <div class="form-group">
@@ -408,15 +408,13 @@
                         </div>
                     </div>
                 </div>
-                <!--=== Footer Widget area ===-->
                 <div class="footer-widget-area pt-100 pb-50">
                     <div class="row">
                         <div class="col-xl-3 col-md-6 col-sm-12 order-1">
-                            <!--=== Footer Widget ===-->
                             <div class="footer-widget footer-about-widget mb-40" data-aos="fade-up" data-aos-duration="800">
                                 <div class="widget-content">
-                                    <img src="assets/images/innerpage/logo/logo-white.png" class="mb-25" alt="logo white">
-                                    <p> Leading sustainable agriculture with innovative solutions for efficient, eco-friendly farming practices</p>
+                                    <img src="assets/images/innerpage/logo/logo-white.png" class="mb-25" alt="Shalak Uganda Ltd. Logo">
+                                    <p>We empower smallholder farmers with sustainable agricultural inputs and training to build food security and climate resilience in Northern Uganda.</p>
                                     <div class="social-box">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -429,9 +427,8 @@
                         <div class="col-xl-6 order-xl-2 order-3">
                             <div class="row px-xl-5">
                                 <div class="col-md-6">
-                                    <!--=== Footer Widget ===-->
                                     <div class="footer-widget footer-nav-widget mb-40" data-aos="fade-up" data-aos-duration="1000">
-                                        <h4 class="widget-title">Our Link</h4>
+                                        <h4 class="widget-title">Our Links</h4>
                                         <div class="widget-content">
                                             <ul class="widget-nav">
                                                 <li><a href="#">About us</a></li>
@@ -444,7 +441,6 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <!--=== Footer Widget ===-->
                                     <div class="footer-widget footer-contact-info-widget mb-40" data-aos="fade-up" data-aos-duration="1200">
                                         <h4 class="widget-title">Address</h4>
                                         <div class="widget-content">
@@ -454,7 +450,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <span class="title">Location</span>
-                                                    <p>Nothern Uganda, UG</p>
+                                                    <p>Plot 30, Lira-Gulu Road, Lira City, Northern Uganda</p>
                                                 </div>
                                             </div>
                                             <div class="agricko-info-box mb-25">
@@ -463,7 +459,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <span class="title">Email</span>
-                                                    <p><a href="mailto:info@shalakug.com">Info@shalakug.com</a></p>
+                                                    <p><a href="mailto:info@shalakug.com">info@shalakug.com</a></p>
                                                 </div>
                                             </div>
                                             <div class="agricko-info-box mb-25">
@@ -471,8 +467,8 @@
                                                     <i class="far fa-phone-alt"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <span class="title">Location</span>
-                                                    <p><a href="tel:+12376599854">+123  76599854</a></p>
+                                                    <span class="title">Phone</span>
+                                                    <p><a href="tel:+256700123456">+256 700 123 456</a></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -481,9 +477,8 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-6 order-2 order-xl-3">
-                            <!--=== Footer Widget ===-->
                             <div class="footer-widget footer-recent-post-widget mb-40" data-aos="fade-up" data-aos-duration="1400">
-                                <h4 class="widget-title">Resent News</h4>
+                                <h4 class="widget-title">Recent News</h4>
                                 <div class="widget-content">
                                     <div class="recent-post-item">
                                         <div class="thumbnail">
@@ -491,7 +486,7 @@
                                         </div>
                                         <div class="content">
                                             <span>July 14, 2025</span>
-                                            <h6><a href="blog-details.html">Current Trends in our new Agriculture Solution</a></h6>
+                                            <h6><a href="blog-details.html">The Power of Organic Farming: Boosting Your Soil Health Naturally</a></h6>
                                         </div>
                                     </div>
                                     <div class="recent-post-item">
@@ -500,7 +495,7 @@
                                         </div>
                                         <div class="content">
                                             <span>July 14, 2025</span>
-                                            <h6><a href="blog-details.html">Recent Developments in New Farming Idea</a></h6>
+                                            <h6><a href="blog-details.html">Beyond the Rain: How Climate-Smart Seeds are Saving Ugandan Crops</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -509,19 +504,18 @@
                     </div>
                 </div>
             </div>
-            <!--=== Copyright Area ===-->
             <div class="copyright-area">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="copyright-text text-center text-lg-start">
-                                <p>&copy; 2025 All rights reserved by Kyakabi Group</p>
+                                <p>&copy; 2025 All rights reserved by Shalak Uganda Ltd.</p>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="copyright-link float-lg-end text-center">
                                 <a href="#">Privacy Policy</a>
-                                <a href="#">Terms & Condition</a>
+                                <a href="#">Terms & Conditions</a>
                                 <a href="#">Legal</a>
                             </div>
                         </div>
